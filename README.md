@@ -59,7 +59,7 @@ G. Shinde, R. Mohapatra, P. Krishan and S. Sengupta, "De-SaTE: Denoising Self-at
 #### CALCE data 
 ![image](https://github.com/GauravYS/Job-Portal-Application/assets/116845183/0710b827-23a8-404c-8860-6f0ae1989e8d)
 
-
+#### Feel free to reach out to the authors with any questions about the experiments.
 
 
 
