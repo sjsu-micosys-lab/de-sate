@@ -43,13 +43,13 @@ G. Shinde, R. Mohapatra, P. Krishan and S. Sengupta, "De-SaTE: Denoising Self-at
          
            corrupted_x = x + self.noise_level * (torch.rand_like(x) - 0.5)
          
-      2) Change the wavelet_denoise function according to soft , hard and garrote mode:
+        Change the wavelet_denoise function according to soft , hard and garrote mode:
            Wavelet decomposition
            Threshold for denoising
            Reconstruct the denoised signal
          
          
-      2) Run the training loop for ## number of epochs
+   2) Run the training loop for ## number of epochs
 
 ### Experiments
 #### NASA 
