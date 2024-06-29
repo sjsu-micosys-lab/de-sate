@@ -52,7 +52,16 @@ G. Shinde, R. Mohapatra, P. Krishan and S. Sengupta, "De-SaTE: Denoising Self-at
    2) Run the training loop for ## number of epochs
 
 ### Experiments
-#### NASA 
+
+#### NASA data
+![image](https://github.com/GauravYS/Job-Portal-Application/assets/116845183/2fa847a1-e600-422a-8faa-9c8820126ba4)
+
+#### CALCE data 
+![image](https://github.com/GauravYS/Job-Portal-Application/assets/116845183/0710b827-23a8-404c-8860-6f0ae1989e8d)
+
+
+
+
 
 
 
