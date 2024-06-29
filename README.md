@@ -27,20 +27,28 @@ G. Shinde, R. Mohapatra, P. Krishan and S. Sengupta, "De-SaTE: Denoising Self-at
    1) Change the mask function to incorporate various types of noise
       - Gaussian noise:
            corrupted_x = x + self.noise_level * torch.randn_like(x)
+        
       - Poisson noise:
-           rate = torch.abs(x) / (self.noise_level + 1e-6)  # Adding a small epsilon to avoid division by zero
+           rate = torch.abs(x) / (self.noise_level + 1e-6)
+        
            poisson_noise = torch.poisson(rate) * (self.noise_level + 1e-6)
+        
            corrupted_x = x + poisson_noise
+        
        - Speckle noise:
+         
            corrupted_x = x * (1 + self.noise_level * torch.randn_like(x))
+         
        - Uniform noise:
+         
            corrupted_x = x + self.noise_level * (torch.rand_like(x) - 0.5)
-         Change the wavelet_denoise function according to soft , hard and garrote mode:
+         
+      2) Change the wavelet_denoise function according to soft , hard and garrote mode:
            Wavelet decomposition
            Threshold for denoising
            Reconstruct the denoised signal
          
-    2) Run the training loop for ## number of epochs
+      3) Run the training loop for ## number of epochs
 
 ### Experiments
 #### NASA 
