@@ -39,6 +39,7 @@ G. Shinde, R. Mohapatra, P. Krishan and S. Sengupta, "De-SaTE: Denoising Self-at
            Wavelet decomposition
            Threshold for denoising
            Reconstruct the denoised signal
+         
     2) Run the training loop for ## number of epochs
 
 ### Experiments
