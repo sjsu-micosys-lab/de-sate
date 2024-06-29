@@ -48,7 +48,8 @@ G. Shinde, R. Mohapatra, P. Krishan and S. Sengupta, "De-SaTE: Denoising Self-at
            Threshold for denoising
            Reconstruct the denoised signal
          
-      3) Run the training loop for ## number of epochs
+         
+      2) Run the training loop for ## number of epochs
 
 ### Experiments
 #### NASA 
